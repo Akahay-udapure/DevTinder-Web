@@ -41,10 +41,10 @@ function App() {
                                 element={<Shipping />}
                             />
                             <Route
-                                path="/refundpolicy"
+                                path="/cancellation-refund-policy"
                                 element={<RefundPolicy />}
                             />
-                            <Route path="/contactus" element={<ContactUs />} />
+                            <Route path="/contact-us" element={<ContactUs />} />
                         </Route>
                     </Routes>
                 </BrowserRouter>

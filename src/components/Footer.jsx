@@ -25,8 +25,10 @@ const Footer = () => {
                     <Link to="/privacy-policy">Privacy Policy</Link>
                     <Link to="/terms-and-conditions">Terms and Conditions</Link>
                     <Link to="/shippinganddelivery">Shipping and Delivery</Link>
-                    <Link to="/refundpolicy">Cancellation and Refund</Link>
-                    <Link to="/contactus">Contact Us</Link>
+                    <Link to="/cancellation-refund-policy">
+                        Cancellation and Refund
+                    </Link>
+                    <Link to="/contact-us">Contact Us</Link>
                 </nav>
             </footer>
         </>
