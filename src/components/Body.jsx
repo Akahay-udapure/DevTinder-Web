@@ -33,7 +33,7 @@ const Body = () => {
         <div>
             <Navbar />
             <Outlet />
-            {/* <Footer /> */}
+            <Footer />
         </div>
     );
 };
