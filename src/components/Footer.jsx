@@ -22,8 +22,8 @@ const Footer = () => {
                     </p>
                 </aside>
                 <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-                    <Link to="/policy">Privacy Policy</Link>
-                    <Link to="termsandconditions">Terms and Conditions</Link>
+                    <Link to="/privacy-policy">Privacy Policy</Link>
+                    <Link to="/terms-and-conditions">Terms and Conditions</Link>
                     <Link to="/shippinganddelivery">Shipping and Delivery</Link>
                     <Link to="/refundpolicy">Cancellation and Refund</Link>
                     <Link to="/contactus">Contact Us</Link>

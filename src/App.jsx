@@ -28,9 +28,12 @@ function App() {
                                 element={<Connections />}
                             />
                             <Route path="/requests" element={<Requests />} />
-                            <Route path="/policy" element={<PrivacyPolicy />} />
                             <Route
-                                path="/termsandconditions"
+                                path="/privacy-policy"
+                                element={<PrivacyPolicy />}
+                            />
+                            <Route
+                                path="/terms-and-conditions"
                                 element={<TermsConditions />}
                             />
                             <Route
