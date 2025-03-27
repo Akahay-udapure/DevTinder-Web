@@ -12,6 +12,7 @@ import TermsConditions from "./components/TermsConditions";
 import Shipping from "./components/Shipping";
 import RefundPolicy from "./components/RefundPolicy";
 import ContactUs from "./components/ContactUs";
+import Chat from "./components/Chat";
 
 function App() {
     return (
@@ -45,6 +46,10 @@ function App() {
                                 element={<RefundPolicy />}
                             />
                             <Route path="/contact-us" element={<ContactUs />} />
+                            <Route
+                                path="/chat/:targetUserId"
+                                element={<Chat />}
+                            />
                         </Route>
                     </Routes>
                 </BrowserRouter>
