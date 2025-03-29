@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const Footer = () => {
     return (
         <>
-            <footer className="footer bg-neutral text-neutral-content items-center p-4 fixed bottom-0">
-                <aside className="grid-flow-col items-center">
+            <footer className="footer bg-neutral text-neutral-content items-center fixed bottom-0">
+                <aside className="grid-flow-col items-center ml-4">
                     <svg
                         width="36"
                         height="36"
@@ -21,7 +21,7 @@ const Footer = () => {
                         reserved
                     </p>
                 </aside>
-                <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+                <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end mr-4">
                     <Link to="/privacy-policy">Privacy Policy</Link>
                     <Link to="/terms-and-conditions">Terms and Conditions</Link>
                     <Link to="/shippinganddelivery">Shipping and Delivery</Link>
